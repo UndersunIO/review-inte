@@ -1,0 +1,633 @@
+@media screen and (max-width: 1200px) {
+  * {
+    overflow-x: hidden;
+  }
+  .banniere-bluelock {
+    width: 90%;
+    height: 403px;
+    display: flex;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    border-radius: 19px;
+    border: 1px solid #fff;
+    background: url("../img/Blue-Lock-Manga.webp");
+    background-size: cover;
+
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+      url("../img/Blue-Lock-Manga.webp");
+  }
+
+  .logo {
+    width: 50%;
+    height: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+
+  .banniere-ascension {
+    width: 98%;
+    height: auto;
+    display: flex;
+    margin-left: 0rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    border-radius: 19px;
+    border: 1px solid #fff;
+    background: url("../img/ascension-visual.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+      url("../img/ascension-visual.jpeg");
+  }
+
+  .section-banniere {
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-left: 20px;
+    margin-left: 10px;
+    border-radius: 16px;
+    margin-bottom: 52px;
+  }
+
+  .menu-sport h2 {
+    display: none;
+  }
+
+  .bouton-banniere {
+    display: flex;
+    gap: 20px;
+  }
+
+  .section-banniere h1 {
+    font-size: 70px;
+    font-weight: 800px;
+    line-height: normal;
+    color: #fff;
+  }
+
+  .bouton-banniere button {
+    width: 140px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #fff;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .bouton-banniere svg {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+  }
+
+  .placementh2 {
+    margin-top: 0rem;
+    text-align: center;
+    margin-right: 0rem;
+  }
+
+  .section-banniere h2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    width: 100%;
+
+    padding-bottom: 30px;
+  }
+
+  .news-section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bouton-banniere button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .invisible-mobile {
+    display: none;
+  }
+
+  .carte-video:nth-child(n + 4) {
+    display: none;
+  }
+
+  .bouton-menu-sports button {
+    margin-right: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .titleandinput {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 2rem;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-bottom: 3rem;
+    background-color: #00084b;
+    border-radius: 10px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .bouton-menu-sports button:hover {
+    background-color: #21e1b7;
+  }
+
+  .bouton-menu-sports a {
+    color: #0003a3;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 64px;
+    display: block;
+  }
+
+  .titre-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    margin-left: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #21e1b7;
+    color: rgb(21, 21, 105);
+  }
+
+  .section-tendance {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    color: #fff;
+    background-color: #00084b;
+  }
+  .alignement-titre h2 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 0rem;
+    padding-left: 70px;
+    text-align: center;
+    padding-right: 60px;
+  }
+
+  .section-video {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 0 60px;
+  }
+
+  .carte-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .carte-video img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .carte-video h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    margin: 10px 0;
+    align-items: left;
+  }
+
+  .invisible-section-mobile {
+    display: none;
+  }
+
+  .titre-bouton-accueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+  }
+
+  .titre-bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+  }
+
+  .bouton-tout-regarder {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .navigation-fleche {
+    display: flex;
+    gap: 10px;
+    margin-right: 5rem;
+    display: none;
+  }
+
+  .navBtn {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .titre-badge h3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .navBtn:hover {
+    background-color: #d0d0d0;
+  }
+
+  .section-boutique {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #00084b;
+  }
+
+  .grille-section-boutique {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 60px;
+  }
+
+  .carte-boutique {
+    background: url("../img/goodie1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 2rem;
+  }
+
+  .carte-boutique h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+
+    margin-top: 10rem;
+  }
+
+  .carte-boutique3 h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+
+    margin-top: 10rem;
+  }
+
+  .carte-boutique2 h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+
+    margin-top: 10rem;
+  }
+
+  .carte-boutique2 {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    margin: 10px 21px;
+    padding: 35px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: url("../img/goodies2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carte-boutique3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 16px;
+    margin: 10px 21px;
+    padding: 35px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: url("../img/goodie3.png");
+  }
+
+  .carte-boutique:hover,
+  .carte-boutique2:hover,
+  .carte-boutique3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .carte-boutique img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .carte-news img {
+    width: 100%;
+    height: 80%;
+    border-radius: 19px;
+  }
+
+  .carte-principale-news img {
+    border-radius: 19px;
+  }
+
+  /*-----------------------FOOTER----------*/
+
+  footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #00084b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contenu-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-footer li {
+    margin: 0.5rem 0;
+  }
+
+  .footer-logo h3 {
+    display: none;
+  }
+
+  .footer-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 5rem;
+  }
+  .liens-rs a {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #e8e8e8;
+    font-size: 40px;
+    transition: background-color 0.2s;
+  }
+
+  .bouton-inscription {
+    color: #090c9b;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #00ffc5;
+    width: 119px;
+    height: 42px;
+    flex-shrink: 0;
+    margin-left: 2rem;
+  }
+
+  /*-------------Les news----------*/
+
+  .grille-section-news {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .grille-section-news p {
+    display: none;
+  }
+
+  .carte-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .carte-principale-news {
+    display: none;
+  }
+
+  nav {
+    margin-top: 2rem;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .recherche {
+    display: none;
+  }
+
+  .bouton-tout-regarder {
+    display: none;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  /* shop card item*/
+
+  /*-----------------------boutique.html responsive----------*/
+  .figurines-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #00084b;
+  }
+
+  .figurines-section h2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 0 60px;
+    margin: 10px 21px;
+  }
+
+  .figurines-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .titre-prix-boutique {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .carte-item-boutique h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+  }
+
+  .prix {
+    font-weight: bold;
+    color: #00ffc5;
+
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 30px;
+  }
+}
+
+/* Responsive pour laptop*/
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+  .carte-boutique {
+    border: 1px solid white;
+    width: 300px;
+    height: 280px;
+    border-radius: 16px;
+    margin: 10px 21px;
+    padding: 35px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: url("../img/goodie1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+      url("../img/goodie1.png");
+  }
+
+  .carte-boutique2 {
+    border: 1px solid white;
+    width: 300px;
+    height: 280px;
+    border-radius: 16px;
+    margin: 10px 21px;
+    padding: 35px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: url("../img/goodies2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+      url("../img/goodies2.png");
+  }
+
+  .carte-boutique3 {
+    border: 1px solid white;
+    width: 300px;
+    height: 280px;
+    border-radius: 16px;
+    margin: 10px 21px;
+    padding: 35px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: url("../img/goodie3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+      url("../img/goodie3.png");
+  }
+  .menu-sport h2 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .bouton-menu-sports button {
+    width: 200px;
+    height: 64px;
+    margin: 0px 10px;
+    border-radius: 16px;
+  }
+}
+
+/* Responsive pour grand ecran*/
+@media (min-width: 1600px) {
+  .section-boutiqueAnime {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    margin-left: 200px;
+    color: #fff;
+    background: none;
+  }
+  .section-boutiqueAnime-Title {
+    text-align: left;
+    padding: 0;
+    width: 100%;
+  }
+}

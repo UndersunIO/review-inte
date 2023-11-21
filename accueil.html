@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animes Sports Zone</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Barre de navigation-->
+    <header>
+      <nav>
+        <a href="./accueil.html">
+          <img src="./img/Logo.png" alt="Logo du site" class="logo" />
+        </a>
+
+        <ul>
+          <li><a href="./accueil.html">Accueil</a></li>
+          <li><a href="./anime.html">Animes</a></li>
+          <li><a href="./mangas.html">Mangas</a></li>
+          <li><a href="/boutique.html">Boutique</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+
+        <div class="recherche">
+          <input type="text" placeholder="Rechercher..." />
+          <button><i class="fas fa-search"></i></button>
+          <li class="icon">
+            <a href="#"><i class="fas fa-user-circle"></i></a>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+          </li>
+        </div>
+      </nav>
+    </header>
+
+    <!--Fin barre de navigation-->
+
+    <main>
+      <!--Banniere Blue lock-->
+
+      <section class="banniere-bluelock">
+        <div class="section-banniere">
+          <h2>Blue Lock</h2>
+          <div class="bouton-banniere">
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="20"
+                viewBox="0 0 17 20"
+                fill="none"
+              >
+                <path
+                  d="M1.96377 20C1.63755 19.9994 1.31711 19.9119 1.03396 19.7462C0.396368 19.3766 0 18.6592 0 17.8804V2.11965C0 1.33868 0.396368 0.623462 1.03396 0.253899C1.32385 0.0834848 1.65317 -0.00415108 1.9875 0.000151107C2.32183 0.0044533 2.64889 0.100536 2.9345 0.278356L16.1034 8.34136C16.3778 8.51739 16.6041 8.76183 16.7609 9.05176C16.9177 9.34169 17 9.66761 17 9.99896C17 10.3303 16.9177 10.6562 16.7609 10.9462C16.6041 11.2361 16.3778 11.4805 16.1034 11.6566L2.93238 19.7217C2.64009 19.9025 2.30532 19.9987 1.96377 20Z"
+                  fill="#00FFC5"
+                />
+              </svg>
+              Regarder
+            </button>
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="22"
+                viewBox="0 0 19 22"
+                fill="none"
+              >
+                <path
+                  d="M17.6891 2.28276L4.80112 0.0237875C4.38768 -0.0484302 3.96226 0.0453014 3.61843 0.28437C3.27459 0.523439 3.0405 0.88827 2.96761 1.29863L0.0238988 17.8972C-0.0121055 18.1005 -0.00738883 18.3089 0.0377795 18.5105C0.0829478 18.712 0.167682 18.9027 0.287141 19.0717C0.406599 19.2407 0.55844 19.3847 0.733986 19.4955C0.909532 19.6062 1.10534 19.6815 1.31023 19.7171L14.1982 21.9761C14.4032 22.012 14.6132 22.0074 14.8164 21.9626C15.0195 21.9179 15.2118 21.8338 15.3822 21.7152C15.5526 21.5966 15.6977 21.4459 15.8093 21.2715C15.921 21.0972 15.9969 20.9028 16.0327 20.6993L18.9765 4.10075C19.0486 3.69023 18.9535 3.26808 18.7121 2.92716C18.4707 2.58623 18.1027 2.35444 17.6891 2.28276ZM10.2403 11.3491C10.208 11.5309 10.1123 11.6955 9.96987 11.8143C9.82748 11.933 9.64754 11.9981 9.46159 11.9983C9.41516 11.9983 9.36882 11.9944 9.32306 11.9865L5.21671 11.2666C5.02155 11.219 4.85196 11.0994 4.74233 10.9322C4.63271 10.765 4.59125 10.5627 4.62637 10.3663C4.66149 10.1699 4.77055 9.99409 4.93145 9.87456C5.09234 9.75503 5.29302 9.70072 5.49277 9.72265L9.59715 10.4386C9.69964 10.4564 9.79759 10.4941 9.8854 10.5495C9.97321 10.6049 10.0492 10.677 10.1089 10.7615C10.1686 10.8461 10.211 10.9415 10.2335 11.0423C10.2561 11.1432 10.2584 11.2474 10.2403 11.3491ZM14.8909 8.97424C14.8586 9.15584 14.763 9.32038 14.6208 9.43907C14.4786 9.55776 14.2989 9.62302 14.1132 9.62345C14.0663 9.62354 14.0196 9.61926 13.9736 9.61068L5.76092 8.17181C5.55413 8.13547 5.37035 8.01908 5.25001 7.84825C5.12967 7.67741 5.08263 7.46612 5.11924 7.26085C5.15585 7.05559 5.27311 6.87317 5.44522 6.75372C5.61733 6.63427 5.8302 6.58758 6.03699 6.62392L14.2497 8.06377C14.3523 8.08145 14.4503 8.11905 14.5383 8.1744C14.6262 8.22975 14.7022 8.30178 14.7621 8.38635C14.8219 8.47093 14.8643 8.56639 14.887 8.66727C14.9096 8.76814 14.9119 8.87246 14.8939 8.97424H14.8909ZM15.44 5.87846C15.4077 6.06023 15.312 6.2249 15.1696 6.34361C15.0272 6.46232 14.8473 6.52748 14.6613 6.52767C14.6149 6.52761 14.5686 6.52366 14.5228 6.51588L6.31009 5.07603C6.20536 5.06073 6.10478 5.02474 6.01432 4.97018C5.92385 4.91562 5.84532 4.84361 5.78339 4.75839C5.72145 4.67318 5.67737 4.5765 5.65374 4.47408C5.6301 4.37166 5.62741 4.26557 5.64581 4.1621C5.66421 4.05863 5.70333 3.95987 5.76086 3.87166C5.81839 3.78346 5.89316 3.70761 5.98074 3.64859C6.06832 3.58958 6.16694 3.5486 6.27076 3.52808C6.37457 3.50756 6.48149 3.50791 6.58516 3.52913L14.7979 4.968C14.9005 4.98556 14.9987 5.02307 15.0867 5.07838C15.1748 5.13368 15.2509 5.20569 15.3109 5.29028C15.3708 5.37486 15.4133 5.47036 15.436 5.57129C15.4587 5.67223 15.4611 5.77661 15.443 5.87846H15.44Z"
+                  fill="#00FFC5"
+                />
+              </svg>
+              Lire
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--Fin banniere Blue lock-->
+
+      <!--Menu liste de sport-->
+      <aside class="menu-sport">
+        <h2>Choissiez le sport qui vous correspond</h2>
+        <div class="bouton-menu-sports">
+          <button><a href="#">Tout voir</a></button>
+          <button class="invisible-mobile">
+            <a href="#">Football</a>
+          </button>
+          <button class="invisible-mobile">
+            <a href="#">Tennis</a>
+          </button>
+          <button class="invisible-mobile">
+            <a href="#">BasketBall</a>
+          </button>
+          <button class="invisible-mobile">
+            <a href="#">Arts Martiaux</a>
+          </button>
+          <button class="invisible-mobile">
+            <a href="#">Rugby</a>
+          </button>
+        </div>
+      </aside>
+      <!--Menu liste de sport FIN-->
+
+      <!--Tendance animé section-->
+
+      <section class="section-tendances">
+        <div class="alignement-titre">
+          <div class="titre-bouton">
+            <h2>Les tendances en animé</h2>
+            <button class="bouton-tout-regarder">Tout regarder</button>
+          </div>
+          <div class="navigation-fleche">
+            <button class="navBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="15.5"
+                  fill="#034AB4"
+                  stroke="#F5F5F5"
+                />
+                <path
+                  d="M16.1727 20.7802C16.0157 20.921 15.8029 21 15.581 21C15.3591 21 15.1463 20.921 14.9893 20.7802L10.2449 16.522C10.0881 16.3811 10 16.1901 10 15.9909C10 15.7918 10.0881 15.6008 10.2449 15.4599L14.9893 11.2017C15.1482 11.069 15.3581 10.9967 15.575 11.0001C15.7919 11.0035 15.999 11.0822 16.1526 11.2197C16.3058 11.3576 16.3935 11.5434 16.3972 11.7381C16.401 11.9328 16.3205 12.1212 16.1727 12.2637L12.8571 15.2395L21.1627 15.2395C21.3848 15.2395 21.5978 15.3187 21.7548 15.4596C21.9118 15.6005 22 15.7916 22 15.9909C22 16.1902 21.9118 16.3814 21.7548 16.5223C21.5978 16.6632 21.3848 16.7424 21.1627 16.7424L12.8571 16.7424L16.1727 19.7182C16.3295 19.8591 16.4175 20.0501 16.4175 20.2492C16.4175 20.4483 16.3295 20.6393 16.1727 20.7802Z"
+                  fill="#00FFC5"
+                />
+              </svg>
+            </button>
+            <button class="navBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="15.5"
+                  fill="#090C9B"
+                  stroke="#F5F5F5"
+                />
+                <path
+                  d="M15.8273 11.2198C15.9843 11.079 16.1971 11 16.419 11C16.6409 11 16.8537 11.079 17.0107 11.2198L21.7551 15.478C21.9119 15.6189 22 15.8099 22 16.0091C22 16.2082 21.9119 16.3992 21.7551 16.5401L17.0107 20.7983C16.8518 20.931 16.6419 21.0033 16.425 20.9999C16.2081 20.9965 16.001 20.9178 15.8474 20.7803C15.6942 20.6424 15.6065 20.4566 15.6028 20.2619C15.599 20.0672 15.6795 19.8788 15.8273 19.7363L19.1429 16.7605L10.8373 16.7605C10.6152 16.7605 10.4022 16.6813 10.2452 16.5404C10.0882 16.3995 10 16.2084 10 16.0091C10 15.8098 10.0882 15.6186 10.2452 15.4777C10.4022 15.3368 10.6152 15.2576 10.8373 15.2576L19.1429 15.2576L15.8273 12.2818C15.6705 12.1409 15.5825 11.9499 15.5825 11.7508C15.5825 11.5517 15.6705 11.3607 15.8273 11.2198Z"
+                  fill="#00FFC5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-video">
+          <div class="carte-video">
+            <img src="./img/Blue-Lock-Manga.webp" alt="Image du cours" />
+            <div class="titre-badge">
+              <h3>Blue Lock</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+
+          <div class="carte-video">
+            <img src="./img/Aoashi-poster.webp" alt="Image du cours" />
+            <div class="titre-badge">
+              <h3>Ao Aishi</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+
+          <div class="carte-video">
+            <img src="./img/hajime-no-ippo.jpeg" alt="Image du cours" />
+            <div class="titre-badge">
+              <h3>Hajime no ippo</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+
+          <div class="carte-video">
+            <img src="./img/Haikyu-oav.jpeg" alt="Image du cours" />
+            <div class="titre-badge">
+              <h3>Haykiu</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+
+          <div class="carte-video">
+            <img src="./img/Slam dunk.png" alt="Image du cours" />
+            <div class="titre-badge">
+              <h3>Slam Dunk</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Tendance animé section FIN-->
+
+      <!--En manga section-->
+      <section class="invisible-section-mobile">
+        <div class="alignement-titre">
+          <div class="titre-bouton">
+            <h2>En manga</h2>
+            <button class="bouton-tout-regarder">Tout regarder</button>
+          </div>
+          <div class="navigation-fleche">
+            <button class="navBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="15.5"
+                  fill="#034AB4"
+                  stroke="#F5F5F5"
+                />
+                <path
+                  d="M16.1727 20.7802C16.0157 20.921 15.8029 21 15.581 21C15.3591 21 15.1463 20.921 14.9893 20.7802L10.2449 16.522C10.0881 16.3811 10 16.1901 10 15.9909C10 15.7918 10.0881 15.6008 10.2449 15.4599L14.9893 11.2017C15.1482 11.069 15.3581 10.9967 15.575 11.0001C15.7919 11.0035 15.999 11.0822 16.1526 11.2197C16.3058 11.3576 16.3935 11.5434 16.3972 11.7381C16.401 11.9328 16.3205 12.1212 16.1727 12.2637L12.8571 15.2395L21.1627 15.2395C21.3848 15.2395 21.5978 15.3187 21.7548 15.4596C21.9118 15.6005 22 15.7916 22 15.9909C22 16.1902 21.9118 16.3814 21.7548 16.5223C21.5978 16.6632 21.3848 16.7424 21.1627 16.7424L12.8571 16.7424L16.1727 19.7182C16.3295 19.8591 16.4175 20.0501 16.4175 20.2492C16.4175 20.4483 16.3295 20.6393 16.1727 20.7802Z"
+                  fill="#00FFC5"
+                />
+              </svg>
+            </button>
+            <button class="navBtn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <circle
+                  cx="16"
+                  cy="16"
+                  r="15.5"
+                  fill="#090C9B"
+                  stroke="#F5F5F5"
+                />
+                <path
+                  d="M15.8273 11.2198C15.9843 11.079 16.1971 11 16.419 11C16.6409 11 16.8537 11.079 17.0107 11.2198L21.7551 15.478C21.9119 15.6189 22 15.8099 22 16.0091C22 16.2082 21.9119 16.3992 21.7551 16.5401L17.0107 20.7983C16.8518 20.931 16.6419 21.0033 16.425 20.9999C16.2081 20.9965 16.001 20.9178 15.8474 20.7803C15.6942 20.6424 15.6065 20.4566 15.6028 20.2619C15.599 20.0672 15.6795 19.8788 15.8273 19.7363L19.1429 16.7605L10.8373 16.7605C10.6152 16.7605 10.4022 16.6813 10.2452 16.5404C10.0882 16.3995 10 16.2084 10 16.0091C10 15.8098 10.0882 15.6186 10.2452 15.4777C10.4022 15.3368 10.6152 15.2576 10.8373 15.2576L19.1429 15.2576L15.8273 12.2818C15.6705 12.1409 15.5825 11.9499 15.5825 11.7508C15.5825 11.5517 15.6705 11.3607 15.8273 11.2198Z"
+                  fill="#00FFC5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-video">
+          <div class="carte-video">
+            <img src="./img/Haikyuu.webp" alt="Image du manga" />
+            <div class="titre-badge">
+              <h3>Haykiu</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+          <div class="carte-video">
+            <img src="./img/Free-anime.jpeg" alt="Image du manga" />
+            <div class="titre-badge">
+              <h3>Free</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+          <div class="carte-video">
+            <img src="./img/Slam dunk.png" alt="Image du manga" />
+            <div class="titre-badge">
+              <h3>Slam Dunk</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+          <div class="carte-video">
+            <img src="./img/Blue-Lock-Manga.webp" alt="Image du manga" />
+            <div class="titre-badge">
+              <h3>Blue Lock</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+
+          <div class="carte-video">
+            <img src="./img/Aoashi-poster.webp" alt="Image du manga" />
+            <div class="titre-badge">
+              <h3>Ao Aishi</h3>
+              <span class="badge">Shonen</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--En manga section FIN-->
+
+      <!--La nouveauté du mois-->
+      <div class="banniere-nouveaute">
+        <h2 class="placementh2">La Nouveauté du mois</h2>
+        <div class="banniere-ascension">
+          <div class="section-banniere">
+            <h2>Ascension</h2>
+            <div class="bouton-banniere">
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="22"
+                  viewBox="0 0 19 22"
+                  fill="none"
+                >
+                  <path
+                    d="M17.6891 2.28276L4.80112 0.0237875C4.38768 -0.0484302 3.96226 0.0453014 3.61843 0.28437C3.27459 0.523439 3.0405 0.88827 2.96761 1.29863L0.0238988 17.8972C-0.0121055 18.1005 -0.00738883 18.3089 0.0377795 18.5105C0.0829478 18.712 0.167682 18.9027 0.287141 19.0717C0.406599 19.2407 0.55844 19.3847 0.733986 19.4955C0.909532 19.6062 1.10534 19.6815 1.31023 19.7171L14.1982 21.9761C14.4032 22.012 14.6132 22.0074 14.8164 21.9626C15.0195 21.9179 15.2118 21.8338 15.3822 21.7152C15.5526 21.5966 15.6977 21.4459 15.8093 21.2715C15.921 21.0972 15.9969 20.9028 16.0327 20.6993L18.9765 4.10075C19.0486 3.69023 18.9535 3.26808 18.7121 2.92716C18.4707 2.58623 18.1027 2.35444 17.6891 2.28276ZM10.2403 11.3491C10.208 11.5309 10.1123 11.6955 9.96987 11.8143C9.82748 11.933 9.64754 11.9981 9.46159 11.9983C9.41516 11.9983 9.36882 11.9944 9.32306 11.9865L5.21671 11.2666C5.02155 11.219 4.85196 11.0994 4.74233 10.9322C4.63271 10.765 4.59125 10.5627 4.62637 10.3663C4.66149 10.1699 4.77055 9.99409 4.93145 9.87456C5.09234 9.75503 5.29302 9.70072 5.49277 9.72265L9.59715 10.4386C9.69964 10.4564 9.79759 10.4941 9.8854 10.5495C9.97321 10.6049 10.0492 10.677 10.1089 10.7615C10.1686 10.8461 10.211 10.9415 10.2335 11.0423C10.2561 11.1432 10.2584 11.2474 10.2403 11.3491ZM14.8909 8.97424C14.8586 9.15584 14.763 9.32038 14.6208 9.43907C14.4786 9.55776 14.2989 9.62302 14.1132 9.62345C14.0663 9.62354 14.0196 9.61926 13.9736 9.61068L5.76092 8.17181C5.55413 8.13547 5.37035 8.01908 5.25001 7.84825C5.12967 7.67741 5.08263 7.46612 5.11924 7.26085C5.15585 7.05559 5.27311 6.87317 5.44522 6.75372C5.61733 6.63427 5.8302 6.58758 6.03699 6.62392L14.2497 8.06377C14.3523 8.08145 14.4503 8.11905 14.5383 8.1744C14.6262 8.22975 14.7022 8.30178 14.7621 8.38635C14.8219 8.47093 14.8643 8.56639 14.887 8.66727C14.9096 8.76814 14.9119 8.87246 14.8939 8.97424H14.8909ZM15.44 5.87846C15.4077 6.06023 15.312 6.2249 15.1696 6.34361C15.0272 6.46232 14.8473 6.52748 14.6613 6.52767C14.6149 6.52761 14.5686 6.52366 14.5228 6.51588L6.31009 5.07603C6.20536 5.06073 6.10478 5.02474 6.01432 4.97018C5.92385 4.91562 5.84532 4.84361 5.78339 4.75839C5.72145 4.67318 5.67737 4.5765 5.65374 4.47408C5.6301 4.37166 5.62741 4.26557 5.64581 4.1621C5.66421 4.05863 5.70333 3.95987 5.76086 3.87166C5.81839 3.78346 5.89316 3.70761 5.98074 3.64859C6.06832 3.58958 6.16694 3.5486 6.27076 3.52808C6.37457 3.50756 6.48149 3.50791 6.58516 3.52913L14.7979 4.968C14.9005 4.98556 14.9987 5.02307 15.0867 5.07838C15.1748 5.13368 15.2509 5.20569 15.3109 5.29028C15.3708 5.37486 15.4133 5.47036 15.436 5.57129C15.4587 5.67223 15.4611 5.77661 15.443 5.87846H15.44Z"
+                    fill="#00FFC5"
+                  />
+                </svg>
+                Lire
+              </button>
+              <button>Escalade</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--La nouveauté du mois FIN-->
+
+      <!--La boutique-->
+      <div class="section-boutique">
+        <div class="alignement-titre">
+          <div class="titre-bouton-accueil">
+            <h2>La Boutique</h2>
+          </div>
+        </div>
+        <div class="grille-section-boutique">
+          <div class="carte-boutique">
+            <h2>Figurines</h2>
+          </div>
+          <div class="carte-boutique2">
+            <h2>Goodies</h2>
+          </div>
+          <div class="carte-boutique3">
+            <h2>Textiles</h2>
+          </div>
+        </div>
+      </div>
+      <!--La boutique FIN-->
+
+      <!--Les news section-->
+      <div class="news-section">
+        <div class="alignement-titre">
+          <div class="titre-bouton">
+            <h2>Les News</h2>
+          </div>
+        </div>
+        <div class="grille-section-news">
+          <div class="carte-principale-news">
+            <h2>Quoi de neuf?</h2>
+          </div>
+
+          <div class="carte-news">
+            <img src="./img/Blue-Lock-Manga.webp" alt="Image du manga" />
+            <h2>Blue Lock avec Canal BD1</h2>
+            <p>
+              Blue Lock est un shōnen qui met en avant de jeunes footballeurs
+              prometteurs en quête de devenir LE buteur du japon pour la
+              prochaine coupe du monde.
+            </p>
+          </div>
+          <div class="carte-news">
+            <img
+              src="./img/Capture d’écran 2023-06-29 à 20.44.05.png"
+              alt="Image du manga"
+            />
+            <h2>L'arc final : Captain Tsubasa</h2>
+            <p>
+              En effet à l'occasion de la sortie du tome 14 vous pourrez
+              retrouver dans les librairies du réseau, et sur la page dédiée,
+              une jaquette collector en édition limitée à 5 500 exemplaires,
+              avec jaquette collector, de ce dernier !!
+            </p>
+          </div>
+          <div class="carte-news">
+            <img src="./img/japan.png" alt="Image du manga" />
+            <h2>Japan Expo 2023</h2>
+            <p>
+              Japan Expo Paris a lieu du 13 au 16 juillet 2023. Les billets ne
+              sont NI REMBOURSABLES NI ECHANGEABLES sauf annulation de
+              l'évènement.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Fin NEWS-->
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <div class="contenu-footer">
+        <div class="footer-logo">
+          <a href="#" class="logo-link">
+            <img src="./img/Logo.png" alt="Logo du site" class="logo" />
+          </a>
+          <h3>Nos réseaux sociaux</h3>
+          <div class="liens-rs">
+            <a href="#"><i class="fab fa-facebook-square icon"></i></a>
+            <a href="#"><i class="fab fa-instagram-square icon"></i></a>
+            <a href="#"><i class="fab fa-twitter-square icon"></i></a>
+          </div>
+        </div>
+
+        <div class="navigation-footer">
+          <ul>
+            <li><a href="./accueil.html">Accueil</a></li>
+            <li><a href="./anime.html">Animes</a></li>
+            <li><a href="./mangas.html">Mangas</a></li>
+            <li><a href="./boutique.html">Boutique</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Livraisons</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">CGV</a></li>
+            <li><a href="#">Politique de cookies</a></li>
+          </ul>
+        </div>
+
+        <div class="newsletter-footer">
+          <form action="#" method="get">
+            <input type="text" name="email" placeholder="Email" />
+            <button class="bouton-inscription" type="submit">S'inscrire</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <p class="credits">© 2023 Tous droits réservés.</p>
+    <!--Fin footer-->
+  </body>
+</html>
